@@ -1,0 +1,10 @@
+.main__form img{
+  width: 52px;
+  height: 52px;
+  margin: 0 auto;
+}
+
+.main .main__figures-calculator{
+  padding-block: 1em;
+  padding-inline: 1em;
+}
