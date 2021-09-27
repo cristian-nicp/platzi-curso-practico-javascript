@@ -47,6 +47,9 @@ button{
 }
 
 .main{
+  width: 100%;
+  min-width: 320px;
+  height: auto;
   padding-block-start: 2em;
 }
 
@@ -54,6 +57,7 @@ button{
   margin-block-start: 1em;
   margin-block-end: .8em;
   margin-inline-start: .3em;
+  text-align: center;
   font-size: 2.4rem;
   text-decoration: underline #ff4f6d;
   color: var(--primary-color);
@@ -100,4 +104,51 @@ button{
 
 .main__form .main__button:nth-child(3){
   margin-block-end:1em;
+}
+
+.main__home-section{
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.main__links{
+  width: 100%;
+  height: auto;
+  margin-block-start: 2.6em;
+  list-style: none;
+}
+
+.main__item{
+  width: 100%;
+  margin-block-end: 2em;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main__item a{
+  display: block;
+  min-width: 300px;
+  width: 100%;
+  padding-inline: 2em;
+  padding-block: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  /*shadow*/
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footer{
+  margin-block-start: 1em;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+}
+
+.footer p{
+  padding-block: 1em;
+  padding-block-start: 2em;
+  font-size: 2rem;
+  text-align: center;
 }
